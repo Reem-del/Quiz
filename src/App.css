@@ -1,0 +1,7 @@
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size:5px;
+    color: wheat;
+}
+.cursor-none{cursor:none}
+.colo{background-color:#b10a0a}

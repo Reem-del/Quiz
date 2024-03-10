@@ -1,0 +1,3 @@
+const array=[{name:"reem",degree:[1,4,5],lastdegree:7},{name:"hasan",degree:[4,8,5],lastdegree:10}]
+const newarr=array.map(ele=>ele.degree);
+console.log('hello');

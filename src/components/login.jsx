@@ -29,7 +29,7 @@ export default function Login() {
      
     }
     return (
-        <div className='flex flex-col  gap-4 xs:w-80 max-xs:w-64 h-auto items-center border border-white rounded-lg shadow-2xl'>
+        <div className='flex flex-col  gap-4 xs:w-80 max-xs:w-64 h-auto items-center border border-slate-300 rounded-lg shadow-2xl'>
         <h3 className='text-slate-600 font-serif py-2 mt-4 text-lg font-bold'>Sign up</h3>
         <div className='relative rounded-lg  w-60 h-10  '>
         <AiOutlineUser size={20} className='absolute left-1 top-2'/>
@@ -45,9 +45,9 @@ export default function Login() {
         </div>
         <div className='flex flex-row space-x-4 text-sm text-slate-500'>
         <div className='flex flex-row'>
-        <input type='checkbox' /><p>remember me?</p>
+        <input type='checkbox' /><p className='text-slate-200'>remember me?</p>
         </div>
-        <p>Forget Password?</p>
+        <p className='text-slate-200'>Forget Password?</p>
         </div>
         <button className='font-serif  text-lg font-bold text-slate-700 px-5 py-2 mb-2 hover:outline outline-blue-100 rounded-lg ' onClick={HandleSubmit}>Login</button>
         </div>

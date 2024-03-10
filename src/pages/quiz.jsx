@@ -70,10 +70,10 @@ console.log(result)
     return (
         <div className='md:flex flex-row p-2 bg-amber-100 w-full max-sm:flex-col gap-3'>
             
-            <div className='xs:w-1/2 ml-9 ' ref={scrollupRef}>
+            <div className='xs:w-1/2 ml-4 max-xs:mx-2' ref={scrollupRef}>
          <Category />
             </div>
-            <div ref={scrolldownRef} className='xs:w-1/2 ml-9 mt-6 '>
+            <div ref={scrolldownRef} className='xs:w-1/2 ml-4 max-xs:mx-2 mt-6 '>
             {show && <div className='mt-2 text-center text-2xl xs:w-80 bg-amber-700 max-xs:w-full'>
                 <p>{getTimer(timer)}</p></div>}
             <div className={`xs:w-80 h-[500px] mt-4  max-xs:w-full shadow-2xl shadow-amber-900 rounded-lg transition-all ease-in-out  duration-700 delay-300   ${show ? `opacity-1`:`opacity-0`}`} >

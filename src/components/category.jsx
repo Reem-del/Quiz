@@ -25,7 +25,7 @@ function Category() {
             <div className='flex flex-col gap-1'>
             <p className='my-3 text-center text-amber-800 font-serif'>Start Now with interest</p>
             {data.map(d=>
-            <div className='bg-orange-400 text-amber-900 border border-slate-300 px-3 h-16 rounded-lg'>
+            <div className='bg-orange-300 text-amber-900 border border-slate-300 px-3 h-16 rounded-lg'>
             <div className='flex flex-row  justify-between '>
             <p className='font-bold'>{d.type}</p>
             <MdKeyboardArrowRight size={20}  className={`${blocked && `cursor-none`} mt-1`} onClick={()=>{dispatch(filterBranch(d)),dispatch(setBlocked(true)),dispatch(setTimer(20))}} />
